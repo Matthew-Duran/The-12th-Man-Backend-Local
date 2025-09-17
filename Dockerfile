@@ -1,4 +1,4 @@
-FROM openjdk:24-jdk-slim
+FROM eclipse-temurin:24-jdk
 
 WORKDIR /app
 
@@ -15,4 +15,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/The-12th-Man-0.0.1-SNAPSHOT.jar"]
