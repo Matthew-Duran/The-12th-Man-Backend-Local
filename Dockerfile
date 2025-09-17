@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:24-jdk-slim
 
 WORKDIR /app
 
@@ -7,7 +7,6 @@ COPY .mvn .mvn
 COPY pom.xml .
 
 RUN chmod +x mvnw
-
 RUN ./mvnw dependency:go-offline -B
 
 COPY src src
