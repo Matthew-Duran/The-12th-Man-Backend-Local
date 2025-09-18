@@ -27,14 +27,6 @@ public class SeasonPrediction {
     // Constructors
     public SeasonPrediction() {}
 
-    public SeasonPrediction(String teamName, Double predictedPoints, Integer predictedRank, String season) {
-        this.teamName = teamName;
-        this.predictedPoints = predictedPoints;
-        this.predictedRank = predictedRank;
-        this.season = season;
-        this.createdAt = LocalDateTime.now();
-    }
-
     // Getters and setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
