@@ -1,4 +1,4 @@
-# ⚽ Premier League Statistics API
+<h1 align="center"> ⚽ Premier League Statistics API</h1>
 RESTful backend powering comprehensive player analytics and ML-driven season predictions
 
 ## 📖 Overview
