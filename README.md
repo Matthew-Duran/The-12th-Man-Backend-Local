@@ -1,4 +1,4 @@
-<h1 align="center"> ⚽ Premier League Statistics API</h1>
+<h1 align="center">⚽ The 12th Man - Premier League Analytics Dashboard API (Backend)</h1> 
 RESTful backend powering comprehensive player analytics and ML-driven season predictions
 
 ## 📖 Overview
