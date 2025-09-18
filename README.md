@@ -4,7 +4,7 @@ RESTful backend powering comprehensive player analytics and ML-driven season pre
 ## 📖 Overview
 This Spring Boot API was developed to serve Premier League statistics and predictive analytics for Fantasy Football enthusiasts and data analysts. It processes 500+ player records and delivers ML-powered season predictions through efficient REST endpoints. 
 
-##Key highlights:
+## Key highlights:
 
 🚀 High-performance REST API – handles concurrent requests with sub-100ms response times
 
