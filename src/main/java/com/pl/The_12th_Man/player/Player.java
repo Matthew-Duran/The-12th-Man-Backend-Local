@@ -26,6 +26,8 @@ public class Player {
     private Double expected_assists;
     private String team_name;
 
+
+
     public Player() {
 
     }
